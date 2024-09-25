@@ -1,0 +1,184 @@
+body {
+    margin: auto;
+    font-family: "Trebuchet MS",Helvetica, sans-serif;
+    background-color: #e6e6e6;
+}
+
+.cabecalho {
+    background-color: #f7b600;
+    text-align: center;
+    padding: 15px;
+}
+
+.titulo {
+    padding-top: 35px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    justify-content: center;
+    display: inline;
+    font-size: 2.5em;
+    color: #4e4e4e;
+}
+
+h2 {
+    justify-content: center;
+    display: inline;
+    font-size: 2.5em;
+    color: white;
+}
+
+.menu {
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+a {
+    display: inline;
+    text-decoration: none;
+    margin: 10px;
+}
+
+a:link, a:visited{
+    color: #FFF;
+    padding: 8px 12px;
+}
+
+a:hover {
+    background-color: white;
+    color: #f7b600;
+}
+
+.principal {
+    /*background-color: #e6e6e6;*/
+    width: 920px;
+    /*flex-direction: column;
+    justify-content: center;
+    align-items: center;*/
+    margin: 0 auto;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+}
+
+.posts {
+    background-color:  #e6e6e6;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 660px;
+}
+
+.laterais {
+    background-color: #e6e6e6;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+}
+
+.post {
+    background-color: white;
+    padding: 15px;
+}
+
+.posts {
+    background-color: white;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+
+.recentes {
+    background-color: white;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.categorias {
+    background-color: white;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+h3 {
+    color: goldenrod;
+    text-align: left;
+    margin: 0px;
+    font-size: 22px;
+}
+
+p {
+    text-align: left;
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: small;
+}
+
+h4 {
+    margin: 0px;
+    color: rgb(58, 58, 58);
+    background-color: #CCC;
+    padding: 3px;
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.recentes p {
+    margin-bottom: 0px;
+    font-weight: normal;
+}
+
+.recentes a {
+    color: goldenrod;
+    font-size: small;
+    margin: auto;
+}
+
+.recentes a:hover {
+    padding: 0;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.posts a {
+    color: goldenrod;
+    font-size: small;
+    margin: auto;
+}
+
+.posts a:hover {
+    padding: 0;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.categorias a {
+    display: block;
+    color: goldenrod;
+    font-size: small;
+    margin: auto;
+}
+
+.categorias a:hover {
+    padding: 0;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.rodape {
+    width: 920px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #CCC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
